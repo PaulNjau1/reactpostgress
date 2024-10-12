@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import bcrypt from 'bcrypt';
+import * as bcrypt from 'bcrypt';
 import * as jwt from 'jsonwebtoken';
 import pool from '../config/db';
 

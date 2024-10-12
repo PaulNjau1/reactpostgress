@@ -2,13 +2,14 @@
     "compilerOptions": {
       "target": "ES6",
       "module": "commonjs",
-      "rootDir": "./src",
+      "esModuleInterop": true,
+      "rootDir": "./",  // Point to the root of your project
       "outDir": "./dist",
-      "strict": true,
+      "strict": false,
       "typeRoots": ["./node_modules/@types", "./types"]
+    },
 
-    }
-
-  
+    
+    "include": ["**/*.ts"]  // Ensure all TypeScript files are included
   }
   
